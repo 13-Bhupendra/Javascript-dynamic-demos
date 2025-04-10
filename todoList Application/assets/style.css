@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px #333;
+  }
+  
+  .container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  }
+  
+  #add_btn {
+    background-color: #0f0f0f;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  #add_btn:hover {
+    background-color: #fff;
+    color: #0f0f0f;
+  }
+  
+  #task-list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #task-list .div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #task-list div {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  #task-list p {
+    flex-grow: 1;
+    font-size: 1.1rem;
+    word-break: break-word;
+  }
+  
+  button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 0.95rem;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  button:nth-of-type(1) {
+    background-color: #ff5959;
+    color: white;
+  }
+  
+  button:nth-of-type(2) {
+    background-color: #00c9a7;
+    color: white;
+  }
+  
