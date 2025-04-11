@@ -1,0 +1,127 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+body
+{
+    background-color:gray;
+
+}
+.heading
+{
+    text-align: center;
+    margin-top: 7%;
+    color: white;
+    font-weight: bold
+}
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+#input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+  
+#input:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+  
+#noteContent
+{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Div
+{
+    width: 30%;
+    height: auto;
+    margin:20px 30px;
+    padding: 20px;
+    text-align: justify;
+    background: rgba( 232, 189, 117, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+ }
+
+
+ 
+/*buttons css*/
+#add_btn
+{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size:20px;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s ease-in-out;
+}
+#add_btn:hover
+{
+    background-color: #6ea5f8;
+    color: black;
+    height: 45px;
+    width: 170px;
+}
+
+.edit_btn
+{
+    height: 40px;
+    width: 100px;
+    margin: 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size:20px;
+    background-color: rgb(255, 108, 108);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    transition: 0.3s ease-in-out;
+}
+.edit_btn:hover
+{
+    background-color: rgb(243, 63, 63);
+    color: rgb(255, 255, 255);
+    height: 45px;
+    width: 110px;
+}
+
+.remove_btn
+{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size:20px;
+    background-color: rgb(33, 95, 59);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: 0.3s ease-out;
+}
+.remove_btn:hover
+{
+    background-color: rgb(130, 240, 176);
+    color: black;
+ 
+}
