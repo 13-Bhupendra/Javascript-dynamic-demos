@@ -1,6 +1,17 @@
 # Javascript-dynamic-demos
- 
 
+ 
+# ⏱️ Stopwatch Web App using HTML, CSS & JavaScript
+<hr>
+ ## Source code   📂 
+![tap to View](https://github.com/13-Bhupendra/Javascript-dynamic-demos/tree/main/StopWatch%20Application)
+
+---
+
+https://github.com/user-attachments/assets/05e649ef-df73-49fd-8a91-37c0b47242a0
+
+
+<br><br><hr><hr>
 ### <h2> ✅ JavaScript Note Pad </h2> <br>
  A clean and responsive Note Pad app built with HTML, CSS, and Vanilla JavaScript. Easily add, edit, and delete notes — all data is saved in your browser using localStorage.
  <br>
@@ -8,8 +19,6 @@
 
  
 https://github.com/user-attachments/assets/c4e4119f-166e-45c8-a699-2fa8061094de
-
-
 
 
 
