@@ -2,9 +2,9 @@
 
  
 # ⏱️ Stopwatch Web App using HTML, CSS & JavaScript
-<hr>
- ## Source code   📂 
-![tap to View](https://github.com/13-Bhupendra/Javascript-dynamic-demos/tree/main/StopWatch%20Application)
+
+ ## Source code   📂 <br>
+[tap to View](https://github.com/13-Bhupendra/Javascript-dynamic-demos/tree/main/StopWatch%20Application)
 
 ---
 
