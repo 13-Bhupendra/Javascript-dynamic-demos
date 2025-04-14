@@ -1,0 +1,109 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,0.6)),  url('images/bg.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#toast-Box
+{
+    position: absolute;
+    bottom: 30px;
+    right:30px;
+    font-size: 20px;
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px;
+}
+button
+{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(14, 27, 76);
+    color: whitesmoke;
+    margin: 15px 30px;
+    position: relative;
+    left: 50px;
+    top: 80px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    transition: 0.6s;
+}
+button:hover
+{
+    height: 49px;
+    width: 110px;
+    border: 7px solid rgb(1, 135, 1);
+    border-radius: 50px;
+}
+.toast
+{
+    height: 60px;
+    width: 320px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: whitesmoke;
+    margin: 15px 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transform: translateX(100%);
+    animation: moveleft 0.5s linear forwards;
+}
+@keyframes moveleft
+{
+    100%
+    {
+        transform: translateX(0%);
+    }
+}
+
+.toast::after
+{
+    height: 5px;
+    width: 100%;
+    content: ' ';
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    border-bottom: 5px solid green;
+    animation: anim 5s linear forwards;
+}
+.toast.error::after
+{
+    border-bottom: 5px solid red;
+}
+.toast.invalid::after
+{
+    border-bottom: 5px solid orange;
+}
+
+@keyframes anim {
+    100%
+    {
+        width: 0%;
+    }
+    
+}
+ 
+.toast i {
+    font-size: 23px;
+    margin-right: 7px;
+    color: green;
+}
+ 
