@@ -1,6 +1,6 @@
  
 # ⏱️ Stopwatch Web App using HTML, CSS & JavaScript
-
+<br>
 ## 📄 Overview  
 This is a stylish and functional stopwatch web application built using **HTML**, **CSS**, and **Vanilla JavaScript**. It features a clean, futuristic UI with animated border effects and control buttons powered by **Remix Icons**. The stopwatch includes functionality to **start**, **stop**, and **reset** time with smooth transitions and real-time updates.
 
