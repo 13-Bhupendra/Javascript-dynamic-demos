@@ -44,7 +44,10 @@ This is a **"Quote of the Day"** web application built using **HTML, CSS, and Ja
 
 ---
 
+
 ### 🌐 GitHub Source Code  
 🔗 [View on GitHub](https://github.com/13-Bhupendra/Javascript-dynamic-demos/tree/main/Quote%20Generator%20(API))
 
+
+https://github.com/user-attachments/assets/601c37ec-9eae-4dc4-b999-29d02541af8b
  
