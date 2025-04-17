@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(145deg, #f8cdda, #fbc2eb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+  }
+  
+  .song-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  #progress {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 8px;
+    background: #ff6699;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 30px;
+  }
+  
+  #progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 22px;
+    border: 5px solid white;
+    width: 22px;
+    background: #ff3366;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .controls {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .controls div {
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+  }
+  
+  .controls div:hover {
+    background: #ff6699;
+    color: #fff;
+  }
+  
