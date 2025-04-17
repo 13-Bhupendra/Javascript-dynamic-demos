@@ -49,6 +49,10 @@ Whether you're just relaxing or coding with background music, this player adds r
 
 1. **Download** or **clone** this repository.
 2. Open `index.html` in a web browser.
-3. Click **Play** and enjoy your music! 🎶
+3. 
+
+https://github.com/user-attachments/assets/19fe4cbd-107a-41a3-892d-42e462cc2918
+
+Click **Play** and enjoy your music! 🎶
 
  
