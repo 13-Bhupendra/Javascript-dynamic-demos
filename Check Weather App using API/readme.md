@@ -54,3 +54,4 @@ It allows users to search for any city and get real-time weather information lik
 5. View temperature, humidity & wind with smooth UI animations  
 
 ---
+https://github.com/user-attachments/assets/2cb7c6c9-53b5-415e-8ddb-9ab5f99caac8
