@@ -47,3 +47,7 @@ This project demonstrates dynamic DOM manipulation, basic cart logic, and clean 
 
 ## 📂 Project Structure
 
+
+https://github.com/user-attachments/assets/047189bd-fd5d-4d6d-a915-6ab8d9c72ded
+
+
