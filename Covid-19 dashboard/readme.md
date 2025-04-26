@@ -43,3 +43,7 @@ Built with **HTML**, **CSS**, and **JavaScript**, this project highlights API in
 4. Enjoy real-time updates in a stylish dashboard!
 
 ---
+
+
+https://github.com/user-attachments/assets/7153bba2-e56b-42d2-9e68-4c592065c9f6
+
